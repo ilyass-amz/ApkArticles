@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     android:padding="8dp">
 
     <ImageView
         android:id="@+id/imgArticle"
-        android:layout_width="80dp"
+        android:layout_width="match_parent"
         android:layout_height="80dp"
         android:scaleType="centerCrop"/>
     <LinearLayout

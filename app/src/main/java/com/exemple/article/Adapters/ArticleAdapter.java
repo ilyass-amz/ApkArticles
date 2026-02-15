@@ -1,5 +1,6 @@
 package com.exemple.article.Adapters;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.exemple.article.Article;
 import com.exemple.article.R;
+import com.exemple.article.Ui.DetailsActivity;
 
 import java.util.List;
 
@@ -34,6 +36,18 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ArticleV
     Glide.with(holder.itemView.getContext())
             .load(current.getImageUrl())
             .into(holder.image);
+
+        holder.itemView.setOnClickListener(v -> {
+
+            Intent intent = new Intent(v.getContext(), DetailsActivity.class);
+
+            intent.putExtra("title", current.getTitle());
+            intent.putExtra("body", current.getBody());
+            intent.putExtra("image", current.getImageUrl());
+
+            v.getContext().startActivity(intent);
+        });
+
     }
 
     @Override

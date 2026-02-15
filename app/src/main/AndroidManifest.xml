@@ -14,10 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Article">
         <activity
+            android:name=".Ui.DetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".Ui.Home"
             android:exported="false" />
         <activity
-            android:name=".item_article"
+            android:name=".Ui.item_article"
             android:exported="false" />
         <activity
             android:name=".Ui.Splash_screen"

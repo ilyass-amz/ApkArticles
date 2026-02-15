@@ -29,7 +29,7 @@ public class Splash_screen extends AppCompatActivity {
             Intent intent = new Intent(Splash_screen.this,Home.class);
             startActivity(intent);
             finish();
-        }, 5000);
+        }, 3000);
 
     }
 }
