@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.exemple.article.Article;
+import com.exemple.article.Model.Article;
 import com.exemple.article.R;
 import com.exemple.article.Ui.DetailsActivity;
 

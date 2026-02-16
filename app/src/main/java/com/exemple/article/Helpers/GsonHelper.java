@@ -1,6 +1,6 @@
 package com.exemple.article.Helpers;
 
-import com.exemple.article.Article;
+import com.exemple.article.Model.Article;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

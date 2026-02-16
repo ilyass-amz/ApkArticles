@@ -1,4 +1,4 @@
-package com.exemple.article;
+package com.exemple.article.Model;
 
 public class Article {
     private int id;

@@ -3,19 +3,14 @@ package com.exemple.article.Ui;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.volley.Request;
 import com.android.volley.toolbox.StringRequest;
 import com.exemple.article.Adapters.ArticleAdapter;
-import com.exemple.article.Article;
+import com.exemple.article.Model.Article;
 import com.exemple.article.Helpers.GsonHelper;
 import com.exemple.article.Helpers.VolleyHelper;
 import com.exemple.article.R;
