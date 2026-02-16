@@ -19,6 +19,7 @@
             android:layout_height="200dp"
             android:scaleType="centerCrop"
             android:contentDescription="image"/>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="12dp"/>
@@ -30,9 +31,7 @@
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#222"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="8dp"/>
+
         <TextView
             android:id="@+id/detailBody"
             android:layout_width="match_parent"
